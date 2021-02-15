@@ -4,7 +4,7 @@ use rand::{self, Rng};
 fn main() {
     let matches = App::new("pwgen")
         .version("0.8")
-        .author("Thomas G. Johansen <thomas@overnode.com>")
+        .author("Thomas G. Johansen <thomas.johansen@overnode.com>")
         .about("Generates passwords")
         .arg(
             Arg::with_name("NUM_PASSWORDS")
