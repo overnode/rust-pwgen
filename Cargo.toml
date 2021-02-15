@@ -1,0 +1,11 @@
+[package]
+name = "pwgen"
+version = "0.1.0"
+authors = ["Thomas G. Johansen <thomas.johansen@overnode.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+clap = "2.33.3"
