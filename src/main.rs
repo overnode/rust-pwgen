@@ -56,7 +56,6 @@ fn main() {
     }
 }
 
-#[no_mangle]
 fn gen_password(num: &u32, length: &usize, inc_numbers: bool, inc_symbols: bool) -> Vec<String> {
     let mut rng = rand::thread_rng();
 
