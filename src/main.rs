@@ -67,11 +67,11 @@ fn gen_password(num: &u32, length: &usize, inc_numbers: bool, inc_symbols: bool)
     let symbols: Vec<char> = "-_!#?%&()@£$".chars().collect();
 
     if inc_numbers {
-        &alpha.extend(numbers);
+        alpha.extend(numbers);
     }
 
     if inc_symbols {
-        &alpha.extend(symbols);
+        alpha.extend(symbols);
     }
 
     while &num_of_generated < num {
@@ -91,7 +91,7 @@ fn gen_password(num: &u32, length: &usize, inc_numbers: bool, inc_symbols: bool)
 
         let p: String = current_password.iter().map(|x| x.to_string()).collect();
 
-        &password_list.push(p);
+        password_list.push(p);
 
         num_of_generated += 1;
     }
